@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+    <title>Feliz Día de las Madres | Un regalo del corazón</title>
+
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+
+    <div class="floral-bg"></div>
+    <div id="petals-container"></div>
+    <div id="hearts-container"></div>
+
+    <div class="music-player">
+        <button id="musicToggleBtn" class="music-btn">
+            <span class="music-icon">🎵</span>
+            <span class="music-text">Musica Favorita</span>
+        </button>
+    </div>
+
+    <div class="love-button-container">
+        <button id="loveBtn" class="love-btn">❤️ Te amo mamá ❤️</button>
+    </div>
+
+    <main class="container">
+
+        <section class="hero-section">
+            <h1 class="main-title">Feliz Día de las Madres</h1>
+
+            <div class="subtitle-wrapper">
+                <p class="emotive-phrase">
+                    “Gracias, mamá, por estar siempre a mi lado incluso en los momentos más difíciles. 
+                    Gracias por cada esfuerzo, cada sacrificio y por hacer todo lo posible para que nunca
+                     nos faltara nada. Eres mi ejemplo de amor, fuerza y valentía. 
+                     Quiero que siempre sepas que te quiero y te amo con todo mi corazón, mami hermosa. 💖”
+                </p>
+            </div>
+
+            <div class="floral-decoration">🌹🌸🌷✨</div>
+        </section>
+
+        <section class="letter-section">
+
+            <div class="letter-wrapper" id="letterWrapper">
+
+                <div class="envelope closed-envelope" id="envelope">
+
+                    <div class="envelope-flap"></div>
+
+                    <div class="envelope-body">
+                        <div class="seal">💌</div>
+                        <p class="click-hint">Haz clic para abrir</p>
+                    </div>
+
+                </div>
+
+                <div class="letter-card hidden" id="letterCard">
+
+                    <div class="letter-content">
+
+                        <div class="letter-header">
+                            <span class="heart-icon">❤️</span>
+                            <h2>Para ti, Mami</h2>
+                            <span class="heart-icon">❤️</span>
+                        </div>
+
+                        <div class="letter-message">
+                            <p>
+                                “Gracias, mami, por todos estos años en los que has estado conmigo, apoyándome, 
+                                cuidándome y creyendo en mí incluso cuando yo mismo dudaba. 
+                                Todo lo que soy hoy es gracias a ti, a tu amor, tus consejos y cada sacrificio 
+                                que has hecho por nosotros. Sé que aún me falta mucho por aprender y lograr, 
+                                pero también sé que con tu apoyo incondicional podremos cumplir todos nuestros 
+                                sueños juntos.
+
+                                Tal vez no soy el mejor hijo del mundo, pero quiero que nunca olvides algo: 
+                                te amo con toda mi alma y siempre voy a hacerlo. Para mí eres la mejor mamá 
+                                del mundo, mi orgullo, mi fuerza y mi hogar. Gracias por existir y por regalarme 
+                                el privilegio de ser tu hijo. Te amo demasiado, mami. 💖🌹”
+                            </p>
+                        </div>
+
+                        <div class="letter-footer">
+                            <i>Con todo mi corazón, Bryan CH, te amo mama ❤️❤️❤️.</i>
+                        </div>
+
+                    </div>
+
+                    <button class="close-letter-btn" id="closeLetterBtn">
+                        ✨ Cerrar carta ✨
+                    </button>
+
+                </div>
+
+            </div>
+
+        </section>
+
+        <section class="carousel-section">
+
+            <h2 class="carousel-title">📸 Momentos inolvidables 📸</h2>
+
+            <div class="carousel-container">
+
+                <div class="carousel-track" id="carouselTrack">
+
+                    <div class="carousel-slide"
+                    style="background-image: url('imagenes/mama1.jpeg');">
+                        <div class="slide-caption">✨ Su sonrisa, mi paz ✨</div>
+                    </div>
+
+                    <div class="carousel-slide"
+                    style="background-image: url('imagenes/mama2.jpeg');">
+                        <div class="slide-caption">🌷 Un abrazo eterno 🌷</div>
+                    </div>
+
+                    <div class="carousel-slide"
+                    style="background-image: url('imagenes/mama3.jpeg');">
+                        <div class="slide-caption">🌸 La mujer que me inspira 🌸</div>
+                    </div>
+
+                    <div class="carousel-slide"
+                    style="background-image: url('imagenes/mama4.jpeg');">
+                        <div class="slide-caption">💖 Eres mi hogar 💖</div>
+                    </div>
+
+                    <div class="carousel-slide"
+                    style="background-image: url('imagenes/mama5.jpeg');">
+                        <div class="slide-caption">🌹 Te amo hasta el infinito 🌹</div>
+                    </div>
+
+                </div>
+
+                <button class="carousel-btn prev-btn" id="prevBtn">❮</button>
+                <button class="carousel-btn next-btn" id="nextBtn">❯</button>
+
+            </div>
+
+            <div class="carousel-indicators" id="indicators"></div>
+
+        </section>
+
+        <footer class="romantic-footer">
+            <p>🌹 De parte de tu hijo bryan, con todo el amor posible mami. 🌹</p>
+        </footer>
+
+    </main>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
